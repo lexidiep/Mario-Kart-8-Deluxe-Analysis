@@ -1,5 +1,7 @@
 # Mario Kart 8 Deluxe Analysis: Who and What is the Fastest?
+
 ### Lexi Diep
+
 ### 12/30/2021
 
 <br>
