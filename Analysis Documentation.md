@@ -264,7 +264,7 @@ top_karts_plot <- ggplot(new_top_karts, aes(x = body, y = value, fill = variable
         panel.background = element_blank(), axis.line = element_line(colour = "black"))
 ```
 
-![Top Karts Plot](https://user-images.githubusercontent.com/56329600/158035694-3ee5e4ef-23f8-49ab-bae2-dd4d37acbb5f.png)
+![Top Karts Plot](https://user-images.githubusercontent.com/56329600/176249019-167424e3-04b8-4a25-9f88-e4cc772acd05.png)
 
 <br>
 
@@ -288,7 +288,7 @@ top_heavy_drivers_plot <- ggplot(new_top_heavy_drivers, aes(x = driver, y = valu
         panel.background = element_blank(), axis.line = element_line(colour = "black"))
 ```
 
-![Top Heavy Drivers Plot](https://user-images.githubusercontent.com/56329600/158035700-e4c6bafb-c262-4eec-af97-641c0659718a.png)
+![Top Heavy Drivers Plot](https://user-images.githubusercontent.com/56329600/176249076-c97148a5-a7ff-4fea-9142-b9280b9a8e97.png)
 
 <br>
 
@@ -312,7 +312,7 @@ top_medium_drivers_plot <- ggplot(new_top_medium_drivers, aes(x = driver, y = va
         panel.background = element_blank(), axis.line = element_line(colour = "black"))
 ```
 
-![Top Medium Drivers Plot](https://user-images.githubusercontent.com/56329600/158035707-8ec5a329-b92e-4b7a-b2ec-1ee06c7599e7.png)
+![Top Medium Drivers Plot](https://user-images.githubusercontent.com/56329600/176249134-af8a6d4f-f4d6-424a-847b-bdb9a5306189.png)
 
 <br>
 
@@ -336,7 +336,7 @@ top_light_drivers_plot <- ggplot(new_top_light_drivers, aes(x = driver, y = valu
         panel.background = element_blank(), axis.line = element_line(colour = "black"))
 ```
 
-![Top Light Drivers Plot](https://user-images.githubusercontent.com/56329600/158035716-555f69cd-fa16-41ca-8374-2e9fd8e63ad6.png)
+![Top Light Drivers Plot](https://user-images.githubusercontent.com/56329600/176249167-fd32e051-f658-425a-bf78-cff17d86d1e4.png)
 
 <br>
 
@@ -359,8 +359,7 @@ top_gliders_plot <- ggplot(new_top_gliders, aes(x = glider, y = value, fill = va
         panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         panel.background = element_blank(), axis.line = element_line(colour = "black"))
 ```
-
-![Top Gliders Plot](https://user-images.githubusercontent.com/56329600/158035730-021704f1-33be-4a57-b002-cd234ccea308.png)
+![Top Gliders Plot](https://user-images.githubusercontent.com/56329600/176249218-53ec91e0-29b8-4875-b3e7-6045a78405cf.png)
 
 <br>
 
@@ -384,7 +383,7 @@ top_tires_plot <- ggplot(new_top_tires, aes(x = tire, y = value, fill = variable
         panel.background = element_blank(), axis.line = element_line(colour = "black"))
 ```
 
-![Top Tires Plot](https://user-images.githubusercontent.com/56329600/158035738-c0f325f0-a89e-4b30-a502-730208c9c125.png)
+![Top Tires Plot](https://user-images.githubusercontent.com/56329600/176249257-35cbbc06-e803-4e90-9dc6-2313077f40c9.png)
 
 <br><br>
 
