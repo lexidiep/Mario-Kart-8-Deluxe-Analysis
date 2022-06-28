@@ -268,6 +268,14 @@ top_karts_plot <- ggplot(new_top_karts, aes(x = body, y = value, fill = variable
 
 <br>
 
+### Breakdown of the "Fastest" Drivers
+
+The following plot shows the breakdown of all the drivers categorized by their respective weight-classes. It is a general overview of all the drivers for comparison altogether and for comparison within each weight-class in perspective. The following sections will focus on the scope of each weight-class separately.
+
+<div class='tableauPlaceholder' id='viz1656441684715' style='position: relative'><noscript><a href='#'><img alt='All Drivers Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofDrivers&#47;AllDriversDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BreakdownofDrivers&#47;AllDriversDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofDrivers&#47;AllDriversDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+
+<br>
+
 #### Breakdown of the "Fastest" Heavy Drivers  
 
 The plot below shows the breakdown of the attributes for all heavy drivers in the game. The reference line on each bar indicates the total speed score as a result of the calculation mentioned earlier. This visualization was created in Tableau using the data frames created in R.
