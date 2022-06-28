@@ -240,7 +240,11 @@ top_tires
 
 #### Breakdown of the "Fastest" Karts  
 
+The plot below shows the breakdown of the attributes for all kart bodies in the game. The reference line on each bar indicates the total speed score as a result of the calculation mentioned earlier.
+
 <div class='tableauPlaceholder' id='viz1656430803475' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofAllBodies_Karts&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BreakdownofAllBodies_Karts&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofAllBodies_Karts&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+
+<br>
 
 The plot below shows that the kart bodies with the same maximum total speed scores are the Flame Rider, Standard Bike, W 25 Silver Arrow, and the Wild Wiggler. Each of these kart bodies shared the maximum total speed score of 42 as well as a weight value of 1. Based on the distribution of each component's value, each of these bodies has the same distribution; the weight, acceleration, mini turbo, overall traction, overall speed, and overall handling are the same for each of these kart bodies.
 
