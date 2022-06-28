@@ -276,7 +276,7 @@ The plot below shows the breakdown of the attributes for all heavy drivers in th
 
 <br>
 
-The heavy drivers with the highest score were extracted for a more focused comparison. The drivers in the heavy-weight class with the top speed scores are Donkey Kong, King Boo, Link, Rosalina, Roy, and Waluigi. Each of these heavy-weight drivers shared the maximum total speed score of 48. Of the 6 top heavy-weight drivers, Donkey Kong, Roy, and Waluigi have the same distribution of attribute values, while King Boo, Link, and Rosalina share the same distribution. Half of the top heavy-weight drivers contain a higher weight and overall speed, while the other half has a higher mini turbo, overall traction, and overall handling. While the plot shows two different distributions of attribute values, the total speed score (minus the weight attribute) is the same for all 6 of these drivers.
+The heavy drivers with the highest score were extracted for a more focused comparison. The drivers in the heavy-weight class with the top speed scores are Donkey Kong, King Boo, Link, Rosalina, Roy, and Waluigi. Each of these heavy-weight drivers shared the maximum total speed score of 48. Of the 6 top heavy-weight drivers, Donkey Kong, Roy, and Waluigi have the same distribution of attribute values, while King Boo, Link, and Rosalina share the same distribution. Half of the top heavy-weight drivers contain a higher weight and overall speed, while the other half has a higher mini turbo, overall traction, and overall handling. While the plot below shows two different distributions of attribute values, the total speed score (minus the weight attribute) is the same for all 6 of these drivers.
 
 <br>
 
@@ -306,7 +306,7 @@ The plot below shows the breakdown of the attributes for all medium drivers in t
 
 <br>
 
-The medium drivers with the highest score were extracted for a more focused comparison. The drivers in the medium-weight class with the highest speed scores are Cat Peach, Inkling Boy, Inkling Girl, Tanooki Mario, Village (Female), and Villager (Male). Each of these medium-weight drivers shares the maximum total speed score of 49. Of the 6 top medium-weight drivers, Cat Peach, Inkling Girl, and Villager (Female) share the same distribution of attribute values, while Inkling Boy, Tanooki Mario, and Villager (Male) share the same distribution. Based on the plot, half the drivers have a higher acceleration and overall handling while the other half of drivers have higher weight, overall traction, and overall speed.
+The medium drivers with the highest score were extracted for a more focused comparison. The drivers in the medium-weight class with the highest speed scores are Cat Peach, Inkling Boy, Inkling Girl, Tanooki Mario, Village (Female), and Villager (Male). Each of these medium-weight drivers shares the maximum total speed score of 49. Of the 6 top medium-weight drivers, Cat Peach, Inkling Girl, and Villager (Female) share the same distribution of attribute values, while Inkling Boy, Tanooki Mario, and Villager (Male) share the same distribution. Based on the plot below, half the drivers have a higher acceleration and overall handling while the other half of drivers have higher weight, overall traction, and overall speed.
 
 <br>
 
@@ -336,7 +336,7 @@ The plot below shows the breakdown of the attributes for all light drivers in th
 
 <br>
 
-The light drivers with the highest score were extracted for a more focused comparison. For the top light-weight drivers, there were only two drivers that shared the same maximum speed score of 57 and a weight value of 0. Based on the plot, both Baby Daisy and Baby Peach share the same distribution of attribute values.
+The light drivers with the highest score were extracted for a more focused comparison. For the top light-weight drivers, there were only two drivers that shared the same maximum speed score of 57 and a weight value of 0. Based on the plot below, both Baby Daisy and Baby Peach share the same distribution of attribute values.
 
 <br>
 
