@@ -234,7 +234,7 @@ top_tires
 
 ### Visualizing Who and What is the "Fastest"
 
-**NOTE:** Each plot shown is intended to show the distribution of component values between the karts/drivers/gliders/tires. The karts/drivers/gliders/tires included in each plot are the result of having the same maximum total speed score. The "Weight" attribute is included in each plot to aid in decision-making when it comes to selecting which kart/driver/glider/tire to use. As mentioned earlier, weight was subtracted from the speed score and these are the top selections as a result of that calculation. The speed score can be found from each plot by adding each attribute value together (disregarding the weight attribute), and then subtracting the weight value.
+**NOTE:** Each plot shown is intended to show the distribution of component values between the karts/drivers/gliders/tires. The karts/drivers/gliders/tires included in each "all selections" plot are distribution comparisons of all selections together. The karts/drivers/gliders/tires included in each "top selections" plot are the result of having the same maximum total speed score. The "Weight" attribute is included in each plot to aid in decision-making when it comes to selecting which kart/driver/glider/tire to use. As mentioned earlier, weight was subtracted from the speed score and these are the top selections as a result of that calculation. The speed score can be found from each plot by adding each attribute value together (disregarding the weight attribute), and then subtracting the weight value.
 
 <br>
 
