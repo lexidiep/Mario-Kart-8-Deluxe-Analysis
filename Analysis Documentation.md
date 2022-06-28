@@ -255,7 +255,7 @@ top_karts <- data.frame(top_karts)
 new_top_karts <- melt(subset(top_karts, select = -c(speed_score)), id.vars = "body")
 top_karts_plot <- ggplot(new_top_karts, aes(x = body, y = value, fill = variable)) +
   geom_bar(stat = "identity") +
-  scale_fill_discrete(name = "Tire Attribute", labels = c("Weight", "Acceleration", "Mini Turbo", "Overall Traction", "Overall Speed", "Overall Handling")) +
+  scale_fill_discrete(name = "Kart Attribute", labels = c("Weight", "Acceleration", "Mini Turbo", "Overall Traction", "Overall Speed", "Overall Handling")) +
   labs(title = "Breakdown of Attributes for Top Karts", x = "Body", y = "Total Speed Score (with Weight)", fill = "Kart Attribute") +
   geom_text(aes(label = value), size = 3, position = position_stack(vjust = 0.5)) +
   scale_y_continuous(limits = c(0, 45), expand = c(0, 0)) +
@@ -279,7 +279,7 @@ top_heavy_drivers <- data.frame(top_heavy_drivers)
 new_top_heavy_drivers <- melt(subset(top_heavy_drivers, select = -c(speed_score)), id.vars = "driver")
 top_heavy_drivers_plot <- ggplot(new_top_heavy_drivers, aes(x = driver, y = value, fill = variable)) +
   geom_bar(stat = "identity") +
-  scale_fill_discrete(name = "Tire Attribute", labels = c("Weight", "Acceleration", "Mini Turbo", "Overall Traction", "Overall Speed", "Overall Handling")) +
+  scale_fill_discrete(name = "Driver Attribute", labels = c("Weight", "Acceleration", "Mini Turbo", "Overall Traction", "Overall Speed", "Overall Handling")) +
   labs(title = "Breakdown of Attributes for Top Heavy Drivers", x = "Driver", y = "Total Speed Score (with Weight)", fill = "Driver Attribute") +
   geom_text(aes(label = value), size = 3, position = position_stack(vjust = 0.5)) +
   scale_y_continuous(limits = c(0, 65), expand = c(0, 0)) +
@@ -303,7 +303,7 @@ top_medium_drivers <- data.frame(top_medium_drivers)
 new_top_medium_drivers <- melt(subset(top_medium_drivers, select = -c(speed_score)), id.vars = "driver")
 top_medium_drivers_plot <- ggplot(new_top_medium_drivers, aes(x = driver, y = value, fill = variable)) +
   geom_bar(stat = "identity") +
-  scale_fill_discrete(name = "Tire Attribute", labels = c("Weight", "Acceleration", "Mini Turbo", "Overall Traction", "Overall Speed", "Overall Handling")) +
+  scale_fill_discrete(name = "Driver Attribute", labels = c("Weight", "Acceleration", "Mini Turbo", "Overall Traction", "Overall Speed", "Overall Handling")) +
   labs(title = "Breakdown of Attributes for Top Medium Drivers", x = "Driver", y = "Total Speed Score (with Weight)", fill = "Driver Attribute") +
   geom_text(aes(label = value), size = 3, position = position_stack(vjust = 0.5)) +
   scale_y_continuous(limits = c(0, 60), expand = c(0, 0)) +
@@ -327,7 +327,7 @@ top_light_drivers <- data.frame(top_light_drivers)
 new_top_light_drivers <- melt(subset(top_light_drivers, select = -c(speed_score)), id.vars = "driver")
 top_light_drivers_plot <- ggplot(new_top_light_drivers, aes(x = driver, y = value, fill = variable)) +
   geom_bar(stat = "identity") +
-  scale_fill_discrete(name = "Tire Attribute", labels = c("Weight", "Acceleration", "Mini Turbo", "Overall Traction", "Overall Speed", "Overall Handling")) +
+  scale_fill_discrete(name = "Driver Attribute", labels = c("Weight", "Acceleration", "Mini Turbo", "Overall Traction", "Overall Speed", "Overall Handling")) +
   labs(title = "Breakdown of Attributes for Top Light Drivers", x = "Driver", y = "Total Speed Score (with Weight)", fill = "Driver Attribute") +
   geom_text(aes(label = value), size = 3, position = position_stack(vjust = 0.5)) +
   scale_y_continuous(limits = c(0, 60), expand = c(0, 0)) +
@@ -351,7 +351,7 @@ top_gliders <- data.frame(top_gliders)
 new_top_gliders <- melt(subset(top_gliders, select = -c(speed_score)), id.vars = "glider")
 top_gliders_plot <- ggplot(new_top_gliders, aes(x = glider, y = value, fill = variable)) +
   geom_bar(stat = "identity") +
-  scale_fill_discrete(name = "Tire Attribute", labels = c("Weight", "Acceleration", "Mini Turbo", "Overall Traction", "Overall Speed", "Overall Handling")) +
+  scale_fill_discrete(name = "Glider Attribute", labels = c("Weight", "Acceleration", "Mini Turbo", "Overall Traction", "Overall Speed", "Overall Handling")) +
   labs(title = "Breakdown of Attributes for Top Gliders", x = "Glider", y = "Total Speed Score (with Weight)", fill = "Glider Attribute") +
   geom_text(aes(label = value), size = 3, position = position_stack(vjust = 0.5)) +
   scale_y_continuous(limits = c(0, 14), expand = c(0, 0)) +
