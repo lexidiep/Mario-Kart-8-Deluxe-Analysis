@@ -246,7 +246,7 @@ The plot below shows the breakdown of the attributes for all kart bodies in the 
 
 <br>
 
-The plot below shows that the kart bodies with the same maximum total speed scores are the Flame Rider, Standard Bike, W 25 Silver Arrow, and the Wild Wiggler. Each of these kart bodies shared the maximum total speed score of 42 as well as a weight value of 1. Based on the distribution of each component's value, each of these bodies has the same distribution; the weight, acceleration, mini turbo, overall traction, overall speed, and overall handling are the same for each of these kart bodies.
+The kart bodies with the highest score were extracted for a more focused comparison. The plot below shows that the kart bodies with the same maximum total speed scores are the Flame Rider, Standard Bike, W 25 Silver Arrow, and the Wild Wiggler. Each of these kart bodies shared the maximum total speed score of 42 as well as a weight value of 1. Based on the distribution of each component's value, each of these bodies has the same distribution; the weight, acceleration, mini turbo, overall traction, overall speed, and overall handling are the same for each of these kart bodies.
 
 <br>
 
