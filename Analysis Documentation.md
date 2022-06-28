@@ -242,7 +242,7 @@ top_tires
 
 The plot below shows the breakdown of the attributes for all kart bodies in the game. The reference line on each bar indicates the total speed score as a result of the calculation mentioned earlier. This visualization was created in Tableau using the data frames created in R.
 
-<div class='tableauPlaceholder' id='viz1656438999137' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofAllBodies_Karts&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BreakdownofAllBodies_Karts&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofAllBodies_Karts&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+<div class='tableauPlaceholder' id='viz1656440447707' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofAllKarts&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BreakdownofAllKarts&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofAllKarts&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
 
 <br>
 
@@ -270,7 +270,13 @@ top_karts_plot <- ggplot(new_top_karts, aes(x = body, y = value, fill = variable
 
 #### Breakdown of the "Fastest" Heavy Drivers  
 
-The drivers in the heavy-weight class with the top speed scores are Donkey Kong, King Boo, Link, Rosalina, Roy, and Waluigi. Each of these heavy-weight drivers shared the maximum total speed score of 48. Of the 6 top heavy-weight drivers, Donkey Kong, Roy, and Waluigi have the same distribution of attribute values, while King Boo, Link, and Rosalina share the same distribution. Half of the top heavy-weight drivers contain a higher weight and overall speed, while the other half has a higher mini turbo, overall traction, and overall handling. While the plot shows two different distributions of attribute values, the total speed score (minus the weight attribute) is the same for all 6 of these drivers.
+The plot below shows the breakdown of the attributes for all heavy drivers in the game. The reference line on each bar indicates the total speed score as a result of the calculation mentioned earlier. This visualization was created in Tableau using the data frames created in R.
+
+<div class='tableauPlaceholder' id='viz1656439847887' style='position: relative'><noscript><a href='#'><img alt='Heavy Drivers Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofAllHeavyDrivers&#47;HeavyDriversDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BreakdownofAllHeavyDrivers&#47;HeavyDriversDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofAllHeavyDrivers&#47;HeavyDriversDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+
+<br>
+
+The heavy drivers with the highest score were extracted for a more focused comparison. The drivers in the heavy-weight class with the top speed scores are Donkey Kong, King Boo, Link, Rosalina, Roy, and Waluigi. Each of these heavy-weight drivers shared the maximum total speed score of 48. Of the 6 top heavy-weight drivers, Donkey Kong, Roy, and Waluigi have the same distribution of attribute values, while King Boo, Link, and Rosalina share the same distribution. Half of the top heavy-weight drivers contain a higher weight and overall speed, while the other half has a higher mini turbo, overall traction, and overall handling. While the plot shows two different distributions of attribute values, the total speed score (minus the weight attribute) is the same for all 6 of these drivers.
 
 <br>
 
@@ -294,7 +300,13 @@ top_heavy_drivers_plot <- ggplot(new_top_heavy_drivers, aes(x = driver, y = valu
 
 #### Breakdown of the "Fastest" Medium Drivers  
 
-The drivers in the medium-weight class with the highest speed scores are Cat Peach, Inkling Boy, Inkling Girl, Tanooki Mario, Village (Female), and Villager (Male). Each of these medium-weight drivers shares the maximum total speed score of 49. Of the 6 top medium-weight drivers, Cat Peach, Inkling Girl, and Villager (Female) share the same distribution of attribute values, while Inkling Boy, Tanooki Mario, and Villager (Male) share the same distribution. Based on the plot, half the drivers have a higher acceleration and overall handling while the other half of drivers have higher weight, overall traction, and overall speed.
+The plot below shows the breakdown of the attributes for all medium drivers in the game. The reference line on each bar indicates the total speed score as a result of the calculation mentioned earlier. This visualization was created in Tableau using the data frames created in R.
+
+<div class='tableauPlaceholder' id='viz1656439967456' style='position: relative'><noscript><a href='#'><img alt='Medium Drivers Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofAllMediumDrivers&#47;MediumDriversDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BreakdownofAllMediumDrivers&#47;MediumDriversDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofAllMediumDrivers&#47;MediumDriversDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+
+<br>
+
+The medium drivers with the highest score were extracted for a more focused comparison. The drivers in the medium-weight class with the highest speed scores are Cat Peach, Inkling Boy, Inkling Girl, Tanooki Mario, Village (Female), and Villager (Male). Each of these medium-weight drivers shares the maximum total speed score of 49. Of the 6 top medium-weight drivers, Cat Peach, Inkling Girl, and Villager (Female) share the same distribution of attribute values, while Inkling Boy, Tanooki Mario, and Villager (Male) share the same distribution. Based on the plot, half the drivers have a higher acceleration and overall handling while the other half of drivers have higher weight, overall traction, and overall speed.
 
 <br>
 
@@ -318,7 +330,13 @@ top_medium_drivers_plot <- ggplot(new_top_medium_drivers, aes(x = driver, y = va
 
 #### Breakdown of the "Fastest" Light Drivers  
 
-For the top light-weight drivers, there were only two drivers that shared the same maximum speed score of 57 and a weight value of 0. Based on the plot, both Baby Daisy and Baby Peach share the same distribution of attribute values.
+The plot below shows the breakdown of the attributes for all light drivers in the game. The reference line on each bar indicates the total speed score as a result of the calculation mentioned earlier. This visualization was created in Tableau using the data frames created in R.
+
+<div class='tableauPlaceholder' id='viz1656440028039' style='position: relative'><noscript><a href='#'><img alt='Light Drivers Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofAllLightDrivers&#47;LightDriversDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BreakdownofAllLightDrivers&#47;LightDriversDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofAllLightDrivers&#47;LightDriversDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+
+<br>
+
+The light drivers with the highest score were extracted for a more focused comparison. For the top light-weight drivers, there were only two drivers that shared the same maximum speed score of 57 and a weight value of 0. Based on the plot, both Baby Daisy and Baby Peach share the same distribution of attribute values.
 
 <br>
 
@@ -340,9 +358,15 @@ top_light_drivers_plot <- ggplot(new_top_light_drivers, aes(x = driver, y = valu
 
 <br>
 
-#### Breakdown of the "Fastest" Gliders  
+#### Breakdown of the "Fastest" Gliders 
 
-The top four gliders with the maximum speed score are Cloud Glider, Flower Glider, Paper Glider, and Parachute. Each of these four gliders share the same maximum speed score of 13 and a weight value of 0. These gliders also share the same distribution of attribute values.
+The plot below shows the breakdown of the attributes for all gliders in the game. The reference line on each bar indicates the total speed score as a result of the calculation mentioned earlier. This visualization was created in Tableau using the data frames created in R.
+
+<div class='tableauPlaceholder' id='viz1656440102113' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofAllGliders&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BreakdownofAllGliders&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofAllGliders&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+
+<br>
+
+The gliders with the highest score were extracted for a more focused comparison. The top four gliders with the maximum speed score are Cloud Glider, Flower Glider, Paper Glider, and Parachute. Each of these four gliders share the same maximum speed score of 13 and a weight value of 0. These gliders also share the same distribution of attribute values.
 
 <br>
 
@@ -365,7 +389,13 @@ top_gliders_plot <- ggplot(new_top_gliders, aes(x = glider, y = value, fill = va
 
 #### Breakdown of the "Fastest" Tires  
 
-There were only two tires that shared the maximum speed score value: Azure Roller and Roller. Both tires also share the same maximum total speed score of 38 and a weight value of 0. They also share the same distribution of attribute values as one another.
+The plot below shows the breakdown of the attributes for all gliders in the game. The reference line on each bar indicates the total speed score as a result of the calculation mentioned earlier. This visualization was created in Tableau using the data frames created in R.
+
+<div class='tableauPlaceholder' id='viz1656440151240' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofAllTires&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BreakdownofAllTires&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BreakdownofAllTires&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+
+<br>
+
+The tires with the highest score were extracted for a more focused comparison. There were only two tires that shared the maximum speed score value: Azure Roller and Roller. Both tires also share the same maximum total speed score of 38 and a weight value of 0. They also share the same distribution of attribute values as one another.
 
 <br>
 
