@@ -1,4 +1,4 @@
-# Mario Kart 8 Deluxe Analysis: Who and What is the Fastest?
+# Mario Kart 8 Deluxe Analysis: Technical Details
 
 ### Lexi Diep
 
