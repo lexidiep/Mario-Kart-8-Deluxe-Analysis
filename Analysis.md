@@ -14,12 +14,40 @@ There are many combinations of karts, drivers, gliders, and tires to select from
 
 <br>
 
+## Table of Contents
+* [**What Makes a Character, Kart, Glider, or Tire Fast?**](#what-makes-a-character-kart-glider-or-tire-fast)  
+    * [What Are These Components?](#what-are-these-components)
+<br><br>
+* [**How Do We Find the "Fastest" Combination of Character, Kart, Glider, and Tire?**](#how-do-we-find-the-fastest-combination-of-character-kart-glider-and-tire)  
+    * [Analyze the Effect of Weight on Overall Speed](#analyze-the-effect-of-weight-on-overall-speed)  
+    * [Visualizing Who and What is the "Fastest"](#visualizing-who-and-what-is-the-fastest)
+        * [Breakdown of the "Fastest" Karts](#breakdown-of-the-fastest-karts)
+        * [Breakdown of the "Fastest Drivers](#breakdown-of-the-fastest-drivers)
+          * [Breakdown of the "Fastest" Heavy Drivers](#breakdown-of-the-fastest-heavy-drivers) 
+          * [Breakdown of the "Fastest" Medium Drivers](#breakdown-of-the-fastest-medium-drivers) 
+          * [Breakdown of the "Fastest" Light Drivers](#breakdown-of-the-fastest-light-drivers)
+        * [Breakdown of the "Fastest Gliders](#breakdown-of-the-fastest-gliders)
+        * [Breakdown of the "Fastest Tires](#breakdown-of-the-fastest-tires)
+<br><br>
+* [**Rankings for Top-Scoring Selections**](#rankings-for-top-scoring-selections)
+    * [Top 3 Scores for Karts](#top-3-scores-for-karts)
+    * [Top 3 Scores for Drivers (per Weight-Class)](#top-3-scores-for-drivers-per-weight-class)
+        * [Light-Weight Drivers](#light-weight-drivers)
+        * [Medium-Weight Drivers](#medium-weight-drivers)
+        * [Heavy-Weight Drivers](#heavy-weight-drivers)
+    * [Top 3 Scores for Gliders](#top-3-scores-for-gliders)
+    * [Top 3 Scores for Tires](#top-3-scores-for-tires)
+<br><br>
+* [**Conclusion**](#conclusion)
+
+<br><br>
+
 ## What Makes a Character, Kart, Glider, or Tire Fast?
 
 Each character, kart, glider, and tire is composed of several different factors that have an effect on how "fast" it is in a given race. All selections are composed of values for "weight", "acceleration", "on-road traction", "off-road traction", "mini turbo", "ground speed", "water speed", "anti-gravity speed", "air speed", "ground handling", "water handling", "anti-gravity handling", and "air handling".  
 
 These values are not explicitly stated in the actual game, however, the values have been interpreted as a point-based system by a collective group of players from the [Mario Wiki](https://www.mariowiki.com/Mario_Kart_8_Deluxe) based on the selection's statistics scale provided by the game.
-  
+ 
 #### What Are These Components?  
 
 According to the [Mario Wiki](https://www.mariowiki.com/Mario_Kart_8_Deluxe):  
@@ -50,7 +78,7 @@ According to the [Mario Wiki](https://www.mariowiki.com/Mario_Kart_8_Deluxe):
 
 ## How Do We Find the "Fastest" Combination of Character, Kart, Glider, and Tire?
 
-### Analyze the effect of weight on overall speed
+### Analyze the Effect of Weight on Overall Speed
 Based on the descriptions of different components of every selection, all components represented a clear positive contribution to overall speed except the "weight" component. If the game mimics real-world physics, weight should decrease overall speed. Based on the description of "weight" according to the [Mario Wiki](https://www.mariowiki.com/Mario_Kart_8_Deluxe), the effect of weight on overall speed was not described.
 With this in mind, I decided to first analyze the effect of weight on overall speed before moving on.
 
