@@ -471,4 +471,6 @@ The 2 choices in the **"fastest" tires**, the *Azure Roller* and the *Roller*, a
 
 The purpose of this analysis was to reveal who and what is structurally the "fastest". Many of the choices with a different distribution depend on the player's play style while choices with the same distribution depend on their preference of looks.
 
-<br><br><br><br>
+<br><br><br>
+[**Back to top**](#mario-kart-8-deluxe-analysis-who-and-what-is-the-fastest)
+<br>
