@@ -14,6 +14,28 @@ There are many combinations of karts, drivers, gliders, and tires to select from
 
 <br>
 
+## Table of Contents
+* [**What Makes a Character, Kart, Glider, or Tire Fast?**](#what-makes-a-character-kart-glider-or-tire-fast)  
+    * [What Are These Components?](#what-are-these-components)
+<br><br>
+* [**How Do We Find the "Fastest" Combination of Character, Kart, Glider, and Tire?**](#how-do-we-find-the-fastest-combination-of-character-kart-glider-and-tire) 
+    * [Loading the necessary packages](#loading-the-necessary-packages)
+    * [Setting up the data](#setting-up-the-data)
+    * [Analyze the Effect of Weight on Overall Speed](#analyze-the-effect-of-weight-on-overall-speed)  
+    * [Finding the "Fastest" Character (per Weight-Class), Kart, Glider, and Tire](#finding-the-fastest-character-per-weight-class-kart-glider-and-tire)
+    * [Visualizing Who and What is the "Fastest"](#visualizing-who-and-what-is-the-fastest)
+        * [Breakdown of the "Fastest" Karts](#breakdown-of-the-fastest-karts)
+        * [Breakdown of the "Fastest Drivers](#breakdown-of-the-fastest-drivers)
+          * [Breakdown of the "Fastest" Heavy Drivers](#breakdown-of-the-fastest-heavy-drivers) 
+          * [Breakdown of the "Fastest" Medium Drivers](#breakdown-of-the-fastest-medium-drivers) 
+          * [Breakdown of the "Fastest" Light Drivers](#breakdown-of-the-fastest-light-drivers)
+        * [Breakdown of the "Fastest Gliders](#breakdown-of-the-fastest-gliders)
+        * [Breakdown of the "Fastest Tires](#breakdown-of-the-fastest-tires)
+<br><br>
+* [**Conclusion**](#conclusion)
+
+<br><br>
+
 ## What Makes a Character, Kart, Glider, or Tire Fast?
 
 Each character, kart, glider, and tire is composed of several different factors that have an effect on how "fast" it is in a given race. All selections are composed of values for "weight", "acceleration", "on-road traction", "off-road traction", "mini turbo", "ground speed", "water speed", "anti-gravity speed", "air speed", "ground handling", "water handling", "anti-gravity handling", and "air handling".  
