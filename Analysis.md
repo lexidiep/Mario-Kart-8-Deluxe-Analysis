@@ -286,4 +286,6 @@ The purpose of this analysis was to reveal who and what is structurally the "fas
 
 
 
-<br><br><br><br>
+<br><br><br>
+[**Back to top**](#mario-kart-8-deluxe-analysis-who-and-what-is-the-fastest)
+<br>
